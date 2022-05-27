@@ -1,0 +1,32 @@
+{
+  "name": "my_first_nodejs",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennydedhia/my_first_nodejs.git"
+  },
+  "author": "Jenny Dedhia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennydedhia/my_first_nodejs/issues"
+  },
+  "homepage": "https://github.com/jennydedhia/my_first_nodejs#readme",
+  "dependencies": {
+    "@babel/helper-define-map": "x.x.x",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "babel-cli": "x.x.x",
+    "babel-preset-env": "x.x.x",
+    "babel-preset-stage-0": "x.x.x"
+  }
+}
